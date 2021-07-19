@@ -1,3 +1,4 @@
+// board manager esp8266 2.7.4
 #include <ESP8266WiFi.h>
 #include "Adafruit_MQTT.h"
 #include "Adafruit_MQTT_Client.h"
@@ -62,7 +63,7 @@ void setup()
 // ini bisa
   lcd.init();
 
-// tambahan biar nyala si biang kerox
+// tambahan 
   lcd.backlight();
   
   //Connect to WiFi
